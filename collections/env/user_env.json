@@ -1,0 +1,31 @@
+{
+  "id": "user-env",
+  "name": "User Environment",
+  "values": [
+    {
+      "key": "api_host",
+      "value": "https://api.stg.charitableimpact.com",
+      "enabled": true
+    },
+    {
+      "key": "user_id",
+      "value": "83600",
+      "enabled": true
+    },
+    {
+      "key": "userId_qa-regression-user@ci.com",
+      "value": "12345",
+      "enabled": true
+    },
+    {
+      "key": "auth0_access_token_qa-regression-user@ci.com",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik9VVTJOMEk1T1VRMFFrVTVRamxHTWtGR01UUkROMFF4T1RreE56bEJRa0UxTVRoR1JEUXhRdyJ9.eyJodHRwczovL2NoaW1wLXN0Zy5hdXRoLmNvbS9lbWFpbCI6InFhLXJlZ3Jlc3Npb24tdXNlckBjaS5jb20iLCJodHRwczovL2NoaW1wLXN0Zy5hdXRoLmNvbS9sb2dpbkNvbm5lY3Rpb24iOiJVU0VSTkFNRS1QQVNTV09SRCIsImh0dHBzOi8vY2hpbXAtc3RnLmF1dGguY29tL3Jvcl9lbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaHR0cHM6Ly9jaGltcC1zdGcuYXV0aC5jb20vdXNlcl9pZCI6ODM2MDAsImh0dHBzOi8vY2hpbXAtc3RnLmF1dGguY29tL3VzZXJfc3RhdHVzIjoiYWN0aXZlIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLm15LnN0Zy5jaGFyaXRhYmxlaW1wYWN0LmNvbS8iLCJzdWIiOiJhdXRoMHw4MzYwMCIsImF1ZCI6WyJodHRwczovL2NoaW1wdGVjaC1zdGcuYXV0aDAuY29tL2FwaS92Mi8iLCJodHRwczovL2NoaW1wdGVjaC1zdGcuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTc3Nzg5MTk3NywiZXhwIjoxNzc3ODkzNzc3LCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIGFkZHJlc3MgcGhvbmUgcmVhZDpjdXJyZW50X3VzZXIgdXBkYXRlOmN1cnJlbnRfdXNlcl9tZXRhZGF0YSBkZWxldGU6Y3VycmVudF91c2VyX21ldGFkYXRhIGNyZWF0ZTpjdXJyZW50X3VzZXJfbWV0YWRhdGEgY3JlYXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgZGVsZXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgdXBkYXRlOmN1cnJlbnRfdXNlcl9pZGVudGl0aWVzIiwiZ3R5IjoicGFzc3dvcmQiLCJhenAiOiJjdVVPaTdUcjQyTkJ0dGFubjU4ejVaNlBRNTNFTExlcCJ9.FtXA8YmpmvwOAlK4Gldgt3q_opOJDEX-KhBUpwDhSaook-h2sc9eK9DraeSbBVqtCwh8XVQGBy1eBhUhzQJonWDVqtgMhEIcxWeMrJqfZ9ewl-ZGIyquGXkopxV4z4sR7ik5UIFVXgnzvPAwFJFUbHa_G_7ZV5xaQPGq4-t4hwUA1cmHbw3u4D4NZMR9kCuqtD025rIP8AtFRFO2wR0B4661ifiZDYOqAFHarxVLWCK-jepdwvwmaB5aiv109ql0SJKdq0_DqUnKyHbe_NCRz7I_msUOU5ANCZxnksQ_MsWpyM8U80F8oUfvraebQ1gyQ4_-AznukedXopvqcfCC5Q",
+      "enabled": true
+    },
+    {
+      "key": "auth0_access_token_qa-regression-user-super@ci.com",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik9VVTJOMEk1T1VRMFFrVTVRamxHTWtGR01UUkROMFF4T1RreE56bEJRa0UxTVRoR1JEUXhRdyJ9.eyJodHRwczovL2NoaW1wLXN0Zy5hdXRoLmNvbS9lbWFpbCI6InFhLXJlZ3Jlc3Npb24tdXNlci1zdXBlckBjaS5jb20iLCJodHRwczovL2NoaW1wLXN0Zy5hdXRoLmNvbS9sb2dpbkNvbm5lY3Rpb24iOiJVU0VSTkFNRS1QQVNTV09SRCIsImh0dHBzOi8vY2hpbXAtc3RnLmF1dGguY29tL3Jvcl9lbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaHR0cHM6Ly9jaGltcC1zdGcuYXV0aC5jb20vdXNlcl9pZCI6ODM1OTgsImh0dHBzOi8vY2hpbXAtc3RnLmF1dGguY29tL3VzZXJfc3RhdHVzIjoiYWN0aXZlIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLm15LnN0Zy5jaGFyaXRhYmxlaW1wYWN0LmNvbS8iLCJzdWIiOiJhdXRoMHw4MzU5OCIsImF1ZCI6WyJodHRwczovL2NoaW1wdGVjaC1zdGcuYXV0aDAuY29tL2FwaS92Mi8iLCJodHRwczovL2NoaW1wdGVjaC1zdGcuYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTc3NzM3NTAzMywiZXhwIjoxNzc3Mzc2ODMzLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIGFkZHJlc3MgcGhvbmUgcmVhZDpjdXJyZW50X3VzZXIgdXBkYXRlOmN1cnJlbnRfdXNlcl9tZXRhZGF0YSBkZWxldGU6Y3VycmVudF91c2VyX21ldGFkYXRhIGNyZWF0ZTpjdXJyZW50X3VzZXJfbWV0YWRhdGEgY3JlYXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgZGVsZXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgdXBkYXRlOmN1cnJlbnRfdXNlcl9pZGVudGl0aWVzIiwiZ3R5IjoicGFzc3dvcmQiLCJhenAiOiJjdVVPaTdUcjQyTkJ0dGFubjU4ejVaNlBRNTNFTExlcCJ9.o08yS3GEL2P44DH19Vr1nIsF7FBfeVezoDl-jO-IJW9fbGpDtg-QKdaJFl6xVSADH7jzCmSuQQABoJjo5T2H9a6KSO7Qf-EG3mSakeni2o1SusxYw-B9gjlBUEjeDbKA7mx5G8iBMyHUNcSt_ZEbh5FMvX0yXXcyoHe33BNJbixu3vyt3jjDosaSDh3Q3n_OJuHyQaD5O-ppskSpInfWa17TM9L_2ZgrVu9v8B5_eHbKUerVDhKeIeF6dbaK6CBAFxZEJknUb4jAwRJDRA6zhFAqZtM0VAa3OHtpmrPqJcBiXcKR9cJmT3aJubwlB0kKDn8lwrG76X5mII_ViCxqDQ",
+      "enabled": true
+    }
+  ]
+}

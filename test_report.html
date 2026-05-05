@@ -1,0 +1,578 @@
+
+        <html>
+        <head>
+            <title>Test Report</title>
+            <style>
+                body { font-family: Arial; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ddd; padding: 8px; }
+                th { background-color: #f2f2f2; }
+                .PASS { background-color: #d4edda; }
+                .FAILED { background-color: #f8d7da; }
+                .HEALED_PASS { background-color: #fff3cd; }
+            </style>
+        </head>
+        <body>
+            <h2>API Test Report</h2>
+            <table>
+                <tr>
+                    <th>Collection</th>
+                    <th>Test Name</th>
+                    <th>Status</th>
+                    <th>Details</th>
+                </tr>
+        
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Update role to company Admin role</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] Unexpected end of input | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Update role to beneficiary Admin role</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] Unexpected end of input | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user details by valid Id</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user details by valid Id</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] expected '0' to equal 'data' | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected value to match the actual response data structure', 'correct_value': 'data', 'confidence': 85}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC06 Get user administered entities</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC06 Get user administered entities</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] expected '0' to equal undefined | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC07 Get user administered groups</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>U_TC01 Get user's tax receipt profiles</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Get user's defaultTaxReceiptProfile</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Get user's tax receipt profiles where the user does not have any tax receipt profiles</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC04 Get user's defaultTaxReceiptProfile where the user does not have a default TRP</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user details by valid Id</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user details by valid Id</td>
+                <td>FAILED</td>
+                <td>[SERVER] expected '0' to equal 'data' | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>U_TC05 Get user's paymentInstruments</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>U_TC01 Get user employedCompanies and enabledEmployeeRoles</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>U_TC01 Get user employedCompanies and enabledEmployeeRoles</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] expected false to deeply equal true | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to true', 'correct_value': True, 'confidence': 85}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Get user's employedCompanies and enabledEmployeeRoles where is user is not member of any company except Chimp community</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] expected 404 to deeply equal 200 | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Get user's employedCompanies and enabledEmployeeRoles with an invalid entity</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] Unexpected end of input | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 role_not_found</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] Unexpected end of input | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Update role Id to company Admin role</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] Unexpected end of input | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user administeredBeneficiaries sorted by Id in descending order</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Get user administeredBeneficiaries sorted by Id in ascending order</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user administeredCompanies</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>E_TC02 Get user employedCompanies</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get Groups with membership</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Get Groups with membership for a user who is not an admin or member of a group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Get Groups with membership for a user who is an admin of a private group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC04 Get Groups with membership for a user who is a member of a private group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 List the admins of a group</td>
+                <td>FAILED</td>
+                <td>[UNKNOWN] No data, empty input at 1:1
+
+^ | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 List the admins of a group by joining a group</td>
+                <td>FAILED</td>
+                <td>[ASSERTION] expected 400 to deeply equal 200 | AI: {'root_cause': 'ASSERTION', 'suggested_fix': 'Change expected status to 404', 'correct_value': 404, 'confidence': 90}</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 List the members of a group</td>
+                <td>FAILED</td>
+                <td>[UNKNOWN] No data, empty input at 1:1
+
+^ | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>E_TC01 Post a comment to a group where the user is an admin</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Post a comment(1000 characters) to a group where the user is a member</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Post a comment to a group where the user is not a member of the group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 403 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Post a comment to a group where the user is not a member of the group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 'Unauthorized' to deeply equal 'Forbidden' | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC06 Post a comment containing special characters to a group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC07 Post a comment with emoji to a group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC08 Post a comment to a group at the first level</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC09 Post a comment(1000 characters) to a group where the user is a member at the first level</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC11 Post a comment containing special characters to a group at the first level</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get Groups with only membership</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Get Groups with only memberships for a user who is not an admin or member of a group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Get Groups with only membership for a user who is an admin of a private group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC04 Get Groups with only membership for a user who is a member of a private group</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC05 Verify the friend status after the friend request gets ignored</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 200 to equal 400 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user administered groups and campaigns</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Get user administeredGroups</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Get user administered campaigns</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Get user details by a valid Id & valid access token</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC12 Get user administeredGroups </td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC13 Get user administeredCampaigns </td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC14 Get user administeredCompanies</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC15 Get user administeredBeneficiaries</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 validation code 1026</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 422 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 validation code 1010</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 422 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 validation code 1001</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 422 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC04 validation code 1001 and 1026</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 422 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC05 validation code 1001</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 422 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC06 Expecting error 'There was a problem in the JSON you submitted'</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 400 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC07 Creating taxReceiptProfile successful</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 201 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Verify 'UniqueHash' key for userId not existing</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 404 to equal 401 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Verify 'UniqueHash' key for userId not existing</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected true to equal false | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC01 Verify the following roles BeneficiaryAdminRole,CompanyAdminRole,DonorRole,EmployeeRole,GroupAdminRole,GroupMemberRole for a user</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>request</td>
+                <td>FAILED</td>
+                <td>[UNKNOWN] runtime:extensions~request: request url is empty | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>request</td>
+                <td>FAILED</td>
+                <td>[UNKNOWN] runtime:extensions~request: request url is empty | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>E_TC05 Suspend the user by using the access token of already suspended user</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 404 to deeply equal 401 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC06 Do a donation to the suspended user using existing access token</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 400 to deeply equal 401 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC09  Suspend the already suspended user</td>
+                <td>FAILED</td>
+                <td>[SERVER] expected 'Invalid Access Token : Invalid segmen…' to deeply equal 'current_user not set in context' | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>E_TC01 Verify the closed user account</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>request</td>
+                <td>FAILED</td>
+                <td>[SERVER] runtime:extensions~request: request url is empty | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC02 Verify if the user is also suspended in RoR DB</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 404 to deeply equal 401 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC03 Close the account created in the TC01</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC04  Friend list</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC05 friends invitation</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC06 Pending list</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC07 Blocked users list</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC11  Change Password</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            <tr class="FAILED">
+                <td>user-flows</td>
+                <td>TC12  Update user profile</td>
+                <td>FAILED</td>
+                <td>[AUTH] expected 401 to deeply equal 200 | AI: None</td>
+            </tr>
+            
+            </table>
+        </body>
+        </html>
+        

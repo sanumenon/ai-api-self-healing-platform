@@ -1,0 +1,30 @@
+collections:
+  - name: "user-flows"
+    path: "collections/user_flows.json"
+    environment: "collections/env/user_env.json"
+
+  - name: "payments"
+    path: "collections/payments.json"
+    environment: "collections/env/payment_env.json"
+
+auth:
+  type: "auth0"
+
+  auth0:
+    token_url: "https://auth.my.stg.charitableimpact.com/oauth/token"
+    grant_type: "password"
+    client_id: "cuUOi7Tr42NBttann58z5Z6PQ53ELLep"
+    audience: "https://chimptech-stg.auth0.com/api/v2/"
+    scope: "openid"
+
+    # ⚠️ Keep credentials separate ideally (env vars later)
+    username: "qa-regression-user@ci.com"
+    password: "GiveAndLetGive!123"
+
+retry:
+  max_attempts: 2
+  retry_status_codes: [500, 502, 503]
+
+llm:
+  provider: "openai"
+  model: "gpt-4o-mini"

@@ -1,0 +1,6 @@
+pyyaml
+requests
+openpyxl
+openai
+python-dotenv
+rich
